@@ -39,5 +39,6 @@
     "description": "Simple, fast AGC that is easy to get integrated and in almost any agc website. Heavily inspired by the Laravel.",
     "keywords": [
         "agc"
-    ]
+    ],
+    "license": "MIT"
 }
