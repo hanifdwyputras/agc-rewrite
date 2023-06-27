@@ -1,0 +1,43 @@
+{
+    "name": "hansputera/agc-rewrite",
+    "version": "dev-master",
+    "version_normalized": "9999999-dev",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/hanifdwyputras/agc-rewrite",
+        "reference": "a0919c622e70da478bec7096d2d69e9557289205"
+    },
+    "require": {
+        "illuminate/config": "^10.13",
+        "illuminate/view": "^10.13",
+        "pecee/simple-router": "5.3.0.5",
+        "phpfastcache/phpfastcache": "^9.1",
+        "symfony/var-dumper": "^6.3",
+        "windwalker/renderer": "~4.0"
+    },
+    "time": "2017-10-06T08:58:09+00:00",
+    "type": "library",
+    "installation-source": "source",
+    "autoload": {
+        "psr-4": {
+            "Masterzain\\": "src/Master/"
+        },
+        "files": [
+            "src/autoload.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Muhammad Zainuddin MS",
+            "email": "theking.zai08@gmail.com"
+        },
+        {
+            "name": "Hanif Dwy Putra S",
+            "email": "hanifdwyputrasembiring@gmail.com"
+        }
+    ],
+    "description": "Simple, fast AGC that is easy to get integrated and in almost any agc website. Heavily inspired by the Laravel.",
+    "keywords": [
+        "agc"
+    ]
+}
